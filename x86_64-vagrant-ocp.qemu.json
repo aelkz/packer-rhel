@@ -16,7 +16,7 @@
       "ssh_host_port_min": 2222,
       "ssh_host_port_max": 2229,
       "ssh_username": "root",
-      "ssh_password": "changeme",
+      "ssh_password": "admin12345",
       "ssh_port": 22,
       "ssh_timeout": "10m",
       "vm_name": "rhel-7.5-ocp.qcow2",
