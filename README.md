@@ -28,3 +28,4 @@ When Packer tries to start up Qemu, it tries to spin up a graphic image and sinc
 ```
 
 Simply add the code above to your JSON file and everything will start swimmingly..
+Source: https://jasonmarley.wordpress.com/2015/11/02/hashi-corps-packer-and-my-qemu-snafu/
