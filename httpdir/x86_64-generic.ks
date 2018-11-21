@@ -5,9 +5,8 @@ reboot
 text
 cdrom
 # user: root
-# pwd.: admin12345
-auth --passalgo=sha512 --useshadow
-rootpw --iscrypted $6$D1vGxIly32NpFZ7k$judD8zn9CRdtz7.M0Kb2Ll7dHipJYUaZK54S1FDsz9YGyJcobU4vW5JZl6pjR7Q7N78DjuIeEPO2ajH9kUapP1
+# pwd.: changeme
+rootpw $1$sLhCeYXU$wVc39u5N4XRpfeO96Q9v90 --iscrypted
 bootloader --location=mbr --append="rhgb quiet crashkernel=auto"
 zerombr
 clearpart --all --initlabel --drives=vda
